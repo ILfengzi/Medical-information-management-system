@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+<title>Welcome</title>
+<style>
+body {
+	padding: 0;
+	margin: 0;
+	background: #f8f7e5 url(2.jpg) no-repeat center top;
+	width: 100%;
+	display: table;
+	padding-top: 40px;
+}
+
+table {
+	background-color: Violet;
+	width: 250px;
+	height: 220px;
+	position: absolute;
+	left: 50%;
+	top: 33%;
+	margin: -100px 0 0 -150px
+}
+
+</style>
+</head>
+<body>
+	<form method="post" action="AgencyServlet?method=login">
+		<table>
+			<tr>
+				<td colspan="2" align="center"><font size="5">医药信息管理系统</font></td>
+			</tr>
+			<tr>
+				<td>账号：</td>
+				<td><input name="ano" type="text"></td>
+			</tr>
+			<tr>
+				<td>密码：</td>
+				<td><input name="apassword" type="password"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2" align="center"><input name="submit"
+					type="submit" value="提交"> <input name="reset" type="reset"
+					value="重置"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

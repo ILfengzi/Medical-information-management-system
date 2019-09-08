@@ -1,0 +1,113 @@
+input:focus, textarea:focus {
+	border: 1px dotted #f00;
+	background: #fcc;
+}
+
+input, texteare {
+	border: 1px solid #cad9ea;
+}
+
+fieldset {
+	width: 80%;
+}
+
+textarea {
+	width: 70%;
+	height: 150px;
+}
+
+body {
+	font-family: Microsoft YaHei;
+	font-size: 13px;
+	color: #010218;
+	align: center;
+	width: 90%;
+}
+
+table {
+	width: 75%;
+	align: center;
+	empty-cells: show;
+	border-collapse: collapse;
+	border: 1px solid #e78f08;
+}
+
+td{
+	height: 30px;
+	border: 1px solid #cad9ea;
+	padding: 2px 2px 2px 2px;
+}
+
+th {
+	height: 30px;
+	border: 1px solid #cad9ea;
+	padding: 0;
+}
+
+#footer, #search {
+	margin: 5px;
+	align: center;
+}
+
+a:hover {
+	color: #ff0080;
+	text-decoration: none;
+}
+
+a:link {
+	color: #cc3300;
+	text-decoration: none;
+}
+
+div {
+	margin: 5px;
+	padding: 5px;
+	width: 100%;
+}
+
+.left {
+	display: block;
+	float: left;
+	width: 80px;
+	padding-left: 2px;
+	font-size: 10pt;
+	font-family: Microsoft YaHei;
+	alignment-baseline: middle;
+}
+
+.submit {
+	margin-top: 40px;
+	margin-left: 250px;
+}
+
+.button {
+	font: 10pt;
+	font-family: Microsoft YaHei;
+	color: #FFF;
+	background-color: #03C;
+}
+
+select option {
+	font-size: 10px;
+	font-family: Microsoft YaHei;
+}
+
+#body2 {
+	background-color: #D8BFD8;
+	width: 88%;
+	margin: 10px;
+	margin-left: 4px;
+	padding: 0px;
+}
+
+#table2{
+	width: 75%;
+	empty-cells: hide;
+}
+
+.p1{
+	font-size:20px;
+	font-family: Microsoft YaHei;
+	color: #FFF;
+	background-color: #03C;
+}
